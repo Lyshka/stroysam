@@ -1,3 +1,7 @@
 export {default as HeaderAuth} from "./Header/HeaderAuth"
+export {default as Header} from "./Header/Header"
 export {default as MainAuth} from "./MainAuth/MainAuth"
 export {default as Footer} from "./Footer/Footer"
+export {default as MainMain} from "./MainMain/MainMain"
+export {default as Slider} from "./Slider/Slider"
+export {default as Country} from "./Country/Country"

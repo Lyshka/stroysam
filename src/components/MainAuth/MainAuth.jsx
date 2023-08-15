@@ -10,7 +10,7 @@ const MainAuth = () => {
   };
 
   return (
-    <div className="px-[306px] gap-x-[166px] mt-12 mb-14 w-full flex justify-center items-center">
+    <div className="px-[306px] h-[calc(100vh-72px-277px)] gap-x-[166px] mt-12 mb-14 w-full flex justify-center items-center">
       <img src={auth} alt="auth" />
 
       <div className="px-[30px] shadowAuthForm w-full py-10 flex gap-y-8 flex-col justify-center items-center rounded-[15px] border border-[#DFDFDF]">
@@ -58,7 +58,7 @@ const MainAuth = () => {
               Запомнить меня
             </label>
           </div>
-          <button className="px-6 py-3 w-[220px] bg-[#F0F0F0] rounded-md text-[#7A7A7A] font-bold text-sm">
+          <button className="px-6 py-3 bg-[#F0F0F0] rounded-md text-[#7A7A7A] font-bold text-sm">
             Продолжить
           </button>
         </div>
