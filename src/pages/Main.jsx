@@ -1,4 +1,4 @@
-import { Country, Header, MainMain, Slider } from "../components";
+import { About, Country, Footer, Header, MainMain, Map, News, Slider } from "../components";
 
 const Main = () => {
   return (
@@ -9,8 +9,12 @@ const Main = () => {
           <Country />
           <Slider />
           <MainMain />
+          <About />
+          <Map />
+          <News />
         </div>
       </div>
+          <Footer />
     </div>
   );
 };

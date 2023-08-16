@@ -1,6 +1,8 @@
 import auth from "./auth.png"
 import slide from "./slide.png"
 import card from "./card.png"
+import about from "./about.png"
+import news from "./news.png"
 import authField from "./authField.svg"
 import instagram from "./inst.svg"
 import telegram from "./telegram.svg"
@@ -38,4 +40,6 @@ export {
     burgerSearch,
     card,
     arrowUp,
+    about,
+    news,
 }
